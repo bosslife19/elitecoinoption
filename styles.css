@@ -1,0 +1,473 @@
+body{
+    /* background-color: rgba(8, 24, 7, 0.589); */
+    overflow-x: hidden;
+    background-image: url("./images/pexels-alesia-kozik-6771900-1.jpg") ; 
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+}
+.mobile-footer{
+    display: none;
+}
+
+nav{
+    background-color: rgba(8, 24, 7, 0.580);
+    height: 15vh;
+    
+}
+.brand h1{
+    color: wheat;
+    font-size: 34px;
+    font-weight: 900;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.footer h1, p{
+    color: white;
+
+}
+.footer{
+    background-image: url("./images/pexels-rodnae-productions-8369770.jpg");
+    height: 40vh;
+    margin-top: 60px;
+}
+.footer li{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 23px;
+}
+.footer div{
+    position: relative;
+    bottom: 60px;
+    color: white;
+    
+}
+.card-body h1, p, button{
+    color: white;
+    margin-top: 100px;
+
+}
+.card-body h1{
+    position: relative;
+    top: 100px;
+}
+.questions{
+    background-color: grey;
+}
+.questions h1{
+    color: rgb(158, 158, 45);
+    font-weight: 900;
+}
+.ques li{
+    list-style: none;
+    text-transform: capitalize;
+    
+}
+
+.ques div{
+    background-color: whitesmoke;
+    margin-right: 20px;
+    box-shadow: 3px;
+}
+.row .footer-div1{
+    position: relative;
+    top: 120px;
+}
+.footer-div1 p{
+    position: relative;
+    bottom: 70px;
+}
+.row .footer-div2{
+    position: relative;
+    top: 130px;
+}
+.row .footer-div3{
+    position: relative;
+    top: 125px;
+}
+.row .text-center{
+    margin-top: 60px;
+}
+.row .footer-div3 h2{
+    font-size: 20px;
+}
+#droplist1, #droplist2, #droplist3{
+    cursor: pointer;
+    color: darkgreen;
+    font-weight: bolder;
+    /* background-color: wheat; */
+}
+.dropdown1, .dropdown2, .dropdown3{
+    display: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    
+}
+.showit{
+    display: block;
+}
+
+
+/* .carousel{
+    background-image: url("./images/pexels-alesia-kozik-6780789.jpg");
+} */
+.card-body button{
+    position: relative;
+    left: 40%;
+    width: 200px;
+    background-color: blueviolet;
+    height: 50px;
+}
+.card-body button a{
+    text-decoration: none;
+    color: white;
+}
+nav .brand{
+    color: white;
+    padding-top: 30px;
+    font-size: larger;
+}
+.carousel-control-next-icon{
+    opacity:0.1;
+}
+.carousel-control-prev-icon{
+opacity: 0.1;
+}
+.card{
+    height: 70vh;
+    width: 1000px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: rgba(8, 24, 7, 0.5);
+}
+.togglers{
+    display: none;
+    height: 10px;
+     position: absolute;
+    right: 30px;
+     top: 50px;
+     cursor: pointer;
+}
+.togglers div{
+    height: 2px;
+    margin: 3px;
+    width: 25px;
+    background-color: white;
+}
+
+.nav-menu{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 30px; 
+}
+.nav-menu li{
+    margin: 0px 50px;
+    list-style: none;
+    font-weight: bolder;
+   
+    
+}
+.nav-menu a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+.nav-menu a:hover{
+    color: green
+}
+.plans-container .card{
+    
+    height:60vh;
+    width: 30vw;
+}
+.card-body ol{
+    margin-top: 80px;
+    
+}
+
+.card h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    background-color: blueviolet;
+    height: 50px;
+}
+.card-body ol li{
+    margin: 0px 0px 50px 0px;
+    color: white;
+    text-align: center;
+    list-style: disc;
+    
+}
+.card-body .button{
+    position: relative;
+    bottom: 100px;
+    margin-right: 50px;
+    width: 130px;
+    
+}
+@media (max-width: 820px){
+    .plans-container .card{
+    
+        height:50vh;
+        width: 30vw;
+    }
+    .card-body ol{
+        margin-top: 60px;
+        
+    }
+    .card h3{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        background-color: blueviolet;
+        height: 50px;
+        font-size: small;
+    }
+    .card-body ol li{
+        margin: 0px 0px 30px 0px;
+        color: white;
+        text-align: center;
+        list-style: disc;
+        
+}
+}
+ 
+@media (max-width: 997px){
+    .card{
+        height: 70vh;
+        width: 800px;
+        margin: 100px auto;
+        border-radius: 10px;
+        /* background-color: gray; */
+    }
+
+}
+@media (max-width: 804px){
+    .card{
+        width:700px;
+    }
+}
+@media(max-width: 779px){
+    nav .brand{
+        position: absolute;
+        left: 0px;
+    }
+    .nav-menu{
+        position: absolute;
+        right: 0px;
+    }
+
+}
+
+/* mobile view */
+@media(max-width: 725px){
+    html{
+        max-width: 724px;
+    }
+    .mobile-footer{
+        display: block;
+        max-width: 725px;
+        /* position: relative; */
+        position: absolute;
+        top: 550%;
+        /* background-color: black; */
+        color: white;
+        height: auto;
+        background-image: url("./images/pexels-alesia-kozik-6780789.jpg");
+    }
+    .mobile-footer a{
+        text-decoration: none;
+        color: blueviolet
+    }
+    .mobile-footer .address{
+        position:relative;
+        bottom: 100px;
+
+    }
+    .mobile-footer .first-p{
+        position: relative;
+        bottom: 70px;
+    }
+    .mobile-footer .phone{
+        position: relative;
+        bottom: 150px;
+    }
+    
+    .nav-menu{
+        height: 100vh;
+        flex-direction: column;
+        background-color: white;
+        width: 40vw;
+        justify-content: center;
+        position: absolute;
+        top: 105px;
+        right: 100%;
+        z-index: 50;
+        
+        
+
+    }
+    @keyframes open{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    .nav-menu li{
+        margin: 0px 0px 50px 0px;
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: 1s;
+    }
+    .nav-menu a{
+        
+        color: blueviolet
+    
+    }
+    .brand h1{
+        color: wheat;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .bg-dark{
+        background-image: url("./andre-francois-mckenzie-JrjhtBJ-pGU-unsplash.jpg");
+    }
+    body{
+        background-image: url("images/pexels-alesia-kozik-6780789.jpg");
+        background-color: black;
+    }
+    .plans-container .card{
+    
+        height:50vh;
+        width: 100vw;
+        margin-bottom: 0px;
+
+    }
+    .dropdown1, .dropdown2, .dropdown3{
+        position: relative;
+        right: 10px;
+    }
+    .card-body ol{
+        margin-top: 60px;
+        
+    }
+    .card h3{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        background-color: blueviolet;
+        height: 50px;
+        font-size: small;
+    }
+    .card-body ol li{
+        margin: 0px 0px 30px 0px;
+        color: white;
+        text-align: center;
+        list-style: disc;
+        
+}
+.card-body .button{
+    position: relative;
+    bottom: 100px;
+    margin-right: 50px;
+    width: 130px;
+    height: 30px;
+    width: 150px;
+    
+}
+.footer{
+    display: none;
+}
+
+    ul li{
+        margin-bottom: 50px;
+        
+    }
+    .questions{
+        margin-top: 50px;
+    }
+    ul a{
+        color: darkblue
+    }
+    .active{
+        right: 0%;
+    }
+    .togglers{
+        display: block;
+    }
+    .card{
+        width: 80vw;
+        height: 60vh;
+    }
+    .card-body h1{
+        position: absolute;
+        top: 0px;
+        font-size: 20px;
+    }
+    
+    .card-body button{
+        position: relative;
+        width: 100px;
+        background-color: blueviolet;
+        height: 40px;
+        bottom: 50px;
+        left: 100px;
+    }
+    .card-body button a{
+        text-decoration: none;
+        color: white;
+    }
+    .card-body p{
+        padding-top: 60px;
+        font-size: 15px;
+    }
+    .bg-dark{
+        position: relative;
+        transform: rotate(180deg);
+        opacity: 0;
+        transition: 1s all ease
+
+    }
+    .reveal{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    
+}
+/* my phone screen */
+@media(max-width: 380px){
+    .card-body .button{
+        position: absolute;
+        top: 220px;
+        left: 120px;
+    }
+    .card-body button{
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        bottom: 50px;
+        left: 90px;
+    }
+}
+        
+
+
+
+
+
+    
